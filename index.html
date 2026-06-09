@@ -23,9 +23,16 @@
             width: 100%;
             height: 100vh;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
             padding: 40px 20px;
+        }
+
+        .top-logo {
+            display: block;
+            width: 300px;
+            margin: 20px auto 30px;
         }
 
         .page {
@@ -620,6 +627,7 @@
 </head>
 <body>
     <div class="container">
+        <img class="top-logo" src="logo.png" alt="千问解忧咖啡馆logo">
         <!-- 页面1: 首页 -->
         <div class="page active" id="home">
             <div class="card">
